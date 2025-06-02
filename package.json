@@ -1,0 +1,40 @@
+{
+  "name": "code-theme",
+  "type": "module",
+  "displayName": "Echoes of Void",
+  "description": "",
+  "repository": "github:actualwitch/code-theme",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "node ./src/index.ts",
+    "package": "vsce package"
+  },
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Echoes of Void",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      }
+    ]
+  },
+  "prettier": {
+    "tabWidth": 2
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "latest",
+    "@types/node": "latest",
+    "@vscode/vsce": "latest",
+    "prettier": "latest"
+  },
+  "dependencies": {
+    "@types/d3": "latest",
+    "d3": "latest"
+  }
+}
