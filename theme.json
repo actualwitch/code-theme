@@ -62,7 +62,7 @@
     "editorIndentGuide.activeBackground": "#FFFFFF61",
     "editorIndentGuide.background1": "#FFFFFF1f",
     "editorIndentGuide.activeBackground1": "#FFFFFF61",
-    "editorWidget.background": "#FFFFFF0d",
+    "editorWidget.background": "#000000",
     "editorWidget.foreground": "#FFFFFFde",
     "editorWidget.border": "#FFFFFF1f",
     "editorWidget.resizeBorder": "#F7A8B8",

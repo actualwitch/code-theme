@@ -78,7 +78,7 @@ export const theme = {
     "editorIndentGuide.activeBackground1": colors.foregroundDisabled,
     
     // Editor widgets
-    "editorWidget.background": colors.backgroundLight,
+    "editorWidget.background": colors.background,
     "editorWidget.foreground": colors.foreground,
     "editorWidget.border": colors.borderSubtle,
     "editorWidget.resizeBorder": colors.accent,
